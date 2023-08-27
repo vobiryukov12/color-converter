@@ -7,7 +7,9 @@ function App() {
 
   useEffect(() => {
     document.body.style.backgroundColor = color; 
-  });
+  }, [color]);
+
+  console.log('Обновление')
 
   return (
     <Converter onChangeColor={color => setColor(color)} />
