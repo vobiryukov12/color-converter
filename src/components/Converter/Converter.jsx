@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Сonverter({ onChangeColor }) {
+export default function Converter({ onChangeColor }) {
   const [value, setValue] = useState('#');
   const hexLen = 7;
   const regHex = /^#[0-9A-F]{6}$/i;
@@ -31,7 +31,7 @@ export default function Сonverter({ onChangeColor }) {
   return (
     <div className="converter">
       <h1 className="converter__title">Конвертер цветов из HEX в RGB</h1>
-      <form className="converter__form" action="#">
+      <form className="converter__form">
         <label htmlFor="hex"></label>
         <input 
           className="converter__field"

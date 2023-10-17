@@ -1,5 +1,5 @@
 import './App.css';
-import Converter from './components/Converter/Сonverter';
+import Converter from './components/Converter/Converter';
 import { useState, useEffect } from "react";
 
 function App() {
@@ -9,12 +9,7 @@ function App() {
     document.body.style.backgroundColor = color; 
   }, [color]);
 
-  console.log('Обновление')
-
-  return (
-    <Converter onChangeColor={color => setColor(color)} />
-  )
+  return <Converter onChangeColor={color => setColor(color)} />
 }
-
 
 export default App;
