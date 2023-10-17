@@ -5,7 +5,7 @@ https://vobiryukov12.github.io/color-converter/
 
 ## Preview
 
-<img src='./public/color-converter.gif' width='450'>
+<img src='./src/assets/color-converter.gif' width='450'>
 
 ## Описание
 Мини-приложение на React, которое преобразует цвет из формата HEX в RGB.
